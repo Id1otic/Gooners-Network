@@ -57,6 +57,30 @@ iframe {
   height: 100%;
 }
 
+ul {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.8rem;
+  width: 300px;
+  height: 450px;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.ul-container {
+  margin: 10px;
+  padding: 7px;
+  color: #000000;
+  width: fit-content;
+  font-size: 19px;
+  background-color: #d8d6d6;
+  border: 2px solid #d8d6d6;
+  border-radius: 10px;
+}
+
 .fade-in {
   animation-name: fadeIn;
   animation-duration: 1.5s;
