@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Gooners' Network | Games</title>
+        <style>
+            html, body {
+                overflow: auto;
+                scrollbar-width: none; 
+                -ms-overflow-style: none; 
+            }
+            html::-webkit-scrollbar, body::-webkit-scrollbar {
+                display: none;
+                width: 0;
+                height: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Gooners' Network — Games</h1>
+        <div class="nav-buttons">
+            <button onclick="pageChange('Home')" type="button">Home</button>
+            <button onclick="pageChange('Chat')" type="button">Chat</button>
+            <button disabled type="button">Games</button>
+            <button onclick="pageChange('Movies')" type="button">Movies</button>
+        </div>
+        
+        <p>Welcome! This is games. You can find a variety of games here to play and entertain yourself with.
+        <span style="color: #ff0000">Info: After entering a game, reload this page to return to this page.</span></p>
+
+        <div class="flex-container fade-in" id="game-container"></div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
